@@ -1,3 +1,40 @@
-body{
-    height: 20px;
+p {
+    margin: 20px solid slategrey;
+    font-family: impact;
+    padding: 5rem dashed crimson;
+
+}
+
+p.likeable {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 2px;
+}
+
+.likeable.me {
+    box-shadow: 8cqmax;
+
+}
+
+div {
+    border: 30px solid rgb(214, 68, 52);
+    padding: 20em dashed #4ddc1479;
+}
+
+a[href="https://www.thoughtbot.com"] {
+    font-weight: bolder;
+    text-decoration: dashed;
+    background-color: aqua;
+}
+
+a[href$="thoughtbot.com"] {
+    font-weight: bolder;
+    text-decoration: dashed;
+    background-color: aqua;
+}
+
+a[href*="www.thoughtbot.com"] {
+    font-weight: bolder;
+    text-decoration: dashed;
+    background-color: aqua;
 }
